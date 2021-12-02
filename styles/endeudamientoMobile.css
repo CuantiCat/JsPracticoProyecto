@@ -15,9 +15,9 @@ body{
 nav{
     position: fixed;
     margin-left: 5vw;
-    height: 15vh;
+    height: 16vh;
     width: 90vw;
-    top: 60%;
+    top: 65%;
     text-align: center;
     border-radius: 8px;
     background-color: gray;
@@ -48,8 +48,8 @@ nav #salarios figure{
 
 nav #index figure img{
     position: relative;
-    width: 8vw;
-    height: 20vw;
+    width: 16vw;
+    height: 25vw;
 }
 
 nav #capacidad figure img{
@@ -71,30 +71,40 @@ main #inputContainer{
     width: 95vw;
     margin-top: 5vh;
     margin-left: 2.5vw;
-    justify-content: center;
+    text-align: center;
     border-radius: 20px;
 }
 
-main #inputContainer label{
+main #inputContainer #ingresosLabel{
     display: inline-block;
-    padding-top: 40%;
+    padding-top: 15vh;
+}
+
+main #inputContainer #gastosLabel{
+    display: inline-block;
+    padding-top: 8vh;
 }
 
 main #inputContainer input{
-    display: absolute;
-    padding-top: 5vh;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50px;
 }
 
 main #inputContainer button{
     display: absolute;
+    margin-top: 5vh;
     top: 60vh;
+    border-radius: 5px;
+    border-width: 1px;
+    background-color: rgba(1, 5, 1, 0.219)
 }
 
 /*Footer*/
 footer{
     position: fixed;
-    height: 25%;
-    top: 75%;
+    height: 20%;
+    top: 80%;
     text-align: center;
     background-color: black;
     width: 100vw;
