@@ -1,0 +1,20 @@
+body{
+    font-size: 1.6rem;
+}
+
+main #inputContainer #gastos{
+    margin-left: 25vw;
+}
+
+main #inputContainer #ingresos{
+    margin-left: 25vw;
+}
+
+main #inputContainer button{
+    display: block;
+    margin: 0 auto;
+    margin-top: 5vh;
+    border-radius: 5px;
+    border-width: 1px;
+    background-color: rgba(1, 5, 1, 0.219)
+}
