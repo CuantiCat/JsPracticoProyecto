@@ -7,6 +7,8 @@ html{
     font-size: 62.5%;
 }
 
+
+/*nav*/
 nav{
     position: fixed;
     margin-left: 5vw;
@@ -61,6 +63,25 @@ nav #salarios figure img{
 /*Main*/
 main #inputContainer{
     background-color: burlywood;
+    height: 50vh;
+    width: 95vw;
+    margin-left: 2.5vw;
+    justify-content: center;
+}
+
+main #inputContainer label{
+    display: inline-block;
+    padding-top: 40%;
+}
+
+main #inputContainer input{
+    display: absolute;
+    padding-top: 5vh;
+}
+
+main #inputContainer button{
+    display: absolute;
+    top: 60vh;
 }
 
 /*Footer*/
