@@ -6,16 +6,20 @@
 html{
     font-size: 62.5%;
 }
-
-
+/*
+body{
+    background-color: #1c022e;
+}
+*/
 /*nav*/
 nav{
     position: fixed;
     margin-left: 5vw;
     height: 15vh;
     width: 90vw;
-    top: 61%;
+    top: 60%;
     text-align: center;
+    border-radius: 8px;
     background-color: gray;
 }
 
@@ -62,11 +66,13 @@ nav #salarios figure img{
 
 /*Main*/
 main #inputContainer{
-    background-color: burlywood;
+    background-color: #363f3c23;
     height: 50vh;
     width: 95vw;
+    margin-top: 5vh;
     margin-left: 2.5vw;
     justify-content: center;
+    border-radius: 20px;
 }
 
 main #inputContainer label{
