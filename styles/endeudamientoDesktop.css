@@ -1,0 +1,39 @@
+
+nav{
+    top: 80vh;
+    left: 17.5vw;
+    width: 75vw;
+}
+
+footer{
+    top: 0vh;
+    height: 100vh;
+    width: 20vw;
+}
+
+footer div{
+    position: block;
+    transform: rotate(-90deg);
+    align-content: center;
+    margin-top: 45vh;
+}
+
+footer div img{
+    width: 350px;
+    height: 125px;
+}
+
+footer div p{
+    padding-right: 20vh;
+    width: 500px;
+}
+
+nav #index figure img{
+    max-width: none;
+    max-height: none;
+}
+
+main #inputContainer{
+    width: 75vw;
+    margin-left: 22.5vw;
+}

@@ -7,25 +7,26 @@
     <title>CapacidadDeEndeudamiento</title>
     <link rel="stylesheet" href="./styles/endeudamientoMobile.css">
     <link rel="stylesheet" href="./styles/endeudamientoTablet.css" media="(min-width:500px)">
+    <link rel="stylesheet" href="./styles/endeudamientoDesktop.css" media="(min-width:768px)">
 </head>
 <body>
     <nav>
         <a id="index" href="./index.html">
-            <figure>
-                <img id="indexFig" onmouseover="buttonAnimation('indexFig')" onmouseleave="buttonAnimationOut('indexFig')" src="./icons/fgo-artoria-pendragon-ruler.gif" alt="index"/>
-                <figcaption>Descripcion</figcaption>
+            <figure id="indexCap">
+                <img id="indexFig" onmouseover="buttonAnimation('indexFig', 'indexCap')" onmouseleave="buttonAnimationOut('indexFig')" src="./icons/fgo-artoria-pendragon-ruler.gif" alt="index"/>
+                <figcaption >Inicio</figcaption>
             </figure>
         </a>
         <a id="capacidad" href="">
             <figure>
                 <img src="./icons/artoria-pendragon-ruler.gif" alt="index"/>
-                <figcaption>Descripcion</figcaption>
+                <figcaption>Capacidad de endeudamiento</figcaption>
             </figure>
         </a>
         <a id="salarios" href="./salarios.html">
             <figure>
                 <img src="./icons/1ac.gif" alt="index"/>
-                <figcaption>Descripcion</figcaption>
+                <figcaption>Salarios</figcaption>
             </figure>
         </a>
     </nav>

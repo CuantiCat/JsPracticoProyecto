@@ -24,14 +24,24 @@ function calcularCapacidadDeEndeudamiento(){
     }
 }
 
-/*function buttonAnimation(name){
-    a=document.getElementById(name);
-    a.style.background = "black";
-    a.style.height= '25vw';
+function buttonAnimation(name, name2){
+    var a=document.getElementById(name);
+    var b=document.getElementById(name2);
+    /*let i = 0;
+    var height;
+    var newHeight;
+    for(i=0; i<5; i++){
+        height = a.offsetHeight;
+        newHeight = height + i;
+        a.style.height = newHeight + 'px';
+        console.log(height, i, a.style.height);
+    }*/
+    a.style.height += "15vh";
+    b.style.bottom += "3vh";
 }
 
 function buttonAnimationOut(name){
     a=document.getElementById(name);
     a.style.background = "";
-    a.style.height= '20vw';    
-}*/
+    a.style.height= '12vh';
+}

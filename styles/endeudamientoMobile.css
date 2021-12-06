@@ -21,6 +21,7 @@ nav{
     text-align: center;
     border-radius: 8px;
     background-color: gray;
+    z-index: 1;
 }
 
 nav #index figure{
@@ -114,6 +115,7 @@ footer{
     text-align: center;
     background-color: black;
     width: 100vw;
+    z-index: 0;
 }
 footer div img{
     width: 200px;
