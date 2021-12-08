@@ -107,6 +107,11 @@ main #inputContainer button{
     background-color: rgba(1, 5, 1, 0.219)
 }
 
+main #inputContainer #description{
+    position: relative;
+    top: 50%;
+}
+
 /*Footer*/
 footer{
     position: fixed;

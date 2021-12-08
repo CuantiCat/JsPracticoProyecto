@@ -5,24 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Salarios</title>
+    <link rel="stylesheet" href="./styles/endeudamientoMobile.css">
+    <link rel="stylesheet" href="./styles/endeudamientoTablet.css" media="(min-width:500px)">
+    <link rel="stylesheet" href="./styles/endeudamientoDesktop.css" media="(min-width:768px)">
 </head>
 <body>
     <nav>
-        <a href="./endeudamiento.html">
+        <a id="index" href="">
+            <figure id="indexCap">
+                <img id="indexFig" onmouseover="buttonAnimation('indexFig', 'indexCap')" onmouseleave="buttonAnimationOut('indexFig')" src="./icons/home.png" alt="home"/>
+                <figcaption >Inicio</figcaption>
+            </figure>
+        </a>
+        <a id="capacidad" href="./endeudamiento.html">
             <figure>
-                <img src=""/>
-                <figcaption>Descripcion</figcaption>
+                <img src="./icons/cash.png" alt="cash"/>
+                <figcaption>Capacidad</figcaption>
+            </figure>
+        </a>
+        <a id="salarios" href="./salarios.html">
+            <figure>
+                <img src="./icons/wallet.png" alt="wallet"/>
+                <figcaption>Salarios</figcaption>
             </figure>
         </a>
     </nav>
     <main>
-
+        <div id="inputContainer">
+            <p id="description">
+                Este es el proyecto del curso de Java Script practico en platzi.
+            </p>
+        </div>
     </main>
-    <aside>
-
-    </aside>
     <footer>
-
+        <div>
+            <img src="./icons/platzilogo_opt.png" alt="platzilogo">
+            <p>
+                Prof: Juan David Castro<br>
+                Hector Arturo Hernandez Zamora
+            </p>
+        </div>
     </footer>
     <script src="./salarios.js"></script>
     <script src="./analisis.js"></script>
