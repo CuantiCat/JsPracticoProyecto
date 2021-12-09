@@ -13,7 +13,7 @@
     <nav>
         <a id="index" href="./index.html">
             <figure id="indexCap">
-                <img id="indexFig" onmouseover="buttonAnimation('indexFig', 'indexCap')" onmouseleave="buttonAnimationOut('indexFig')" src="./icons/home.png" alt="home"/>
+                <img id="indexFig" src="./icons/home.png" alt="home"/>
                 <figcaption >Inicio</figcaption>
             </figure>
         </a>
@@ -32,12 +32,7 @@
     </nav>
     <main>
         <div id="inputContainer">
-            <label id="ingresosLabel" for="ingresos">Ingresos mensuales</label>
-            <input type="number" id="ingresos"><br>
-            <label id="gastosLabel" for="gastos">Gastos mensuales</label>
-            <input type="number" id="gastos">
-            <button type="button" onclick="calcularCapacidadDeEndeudamiento()">Calcula tu capacidad de endeudamiento</button>
-            <p id="capacidadEndeudamiento"></p>
+            <h1 id="description">Salarios</h1>
         </div>
     </main>
     <footer>
@@ -49,5 +44,7 @@
             </p>
         </div>
     </footer>
+    <script src="./salarios.js"></script>
+    <script src="./analisis.js"></script>
 </body>
 </html>

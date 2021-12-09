@@ -39,9 +39,10 @@ function buttonAnimation(name, name2){
     a.style.height += "15vh";
     b.style.bottom += "3vh";
 }
-
+/*
 function buttonAnimationOut(name){
     a=document.getElementById(name);
     a.style.background = "";
     a.style.height= '12vh';
 }
+*/

@@ -49,9 +49,9 @@ nav #salarios figure{
 
 nav #index figure img{
     position: relative;
-    width: 12vw;
+    width: 8vw;
     max-width: 100px;
-    height: 12vh;
+    height: 11vh;
     max-height: 100px;
 }
 
